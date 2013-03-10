@@ -1,0 +1,58 @@
+<script>
+               var number  = new Array ();
+            function findMax(number  )
+            {
+               //number = new Array ();
+                var i=0;
+                var max = number[i];
+                for (i=0 ; i <= number.length ;i++)
+                    {
+                        if (number[i] >  max)
+                        {
+                            max = number[i];
+                        }  
+                    }
+                    document.write(max); 
+            }
+////////////////////////////////////////////////////////////////////////////////            
+              var shitty = new Array(56,6,99,50,1);
+              document.write('The elements are:');
+              for(var i=0;i<=shitty.length-1;i++)
+                  
+              {
+                  document.write(shitty[i]);
+                 
+              if(i<shitty.length-1)
+                  document.write(',');
+              }
+              document.write('<br>Max:');
+              
+                      findMax(shitty);
+                      
+                 document.write('<br>************************************');
+                     
+                     
+////////////////////////////////////////////////////////////////////////////////
+                     
+              var userArray= new Array(6);
+                     
+              for (var i=0; i<=userArray.length-1;i++)
+              
+              {
+                  userArray[i]=parseFloat(window.prompt('Please fill in the Array',''));
+              }
+                         document.write('<br>Your elements are:');
+                         
+              for(var i=0;i<=userArray.length-1;i++)
+                  
+              {
+                  document.write(userArray[i]);
+                 
+              if(i<userArray.length-1)
+                  document.write(',');
+              }
+              document.write('<br>Max:');
+                      
+                         findMax(userArray);
+                      
+            </script>
