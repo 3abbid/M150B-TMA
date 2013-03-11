@@ -14,24 +14,24 @@
                     }
                     document.write(max); 
             }
-////////////////////////////////////////////////////////////////////////////////            
-              var shitty = new Array(56,6,99,50,1);
+//////////////////////////////////////////////////////////////////////////////// 
+
+              var defualtArray = new Array(56,6,99,50,1);
               document.write('The elements are:');
-              for(var i=0;i<=shitty.length-1;i++)
+              for(var i=0;i<=defualtArray.length-1;i++)
                   
               {
-                  document.write(shitty[i]);
+                  document.write(defualtArray[i]);
                  
-              if(i<shitty.length-1)
+              if(i<defualtArray.length-1)
                   document.write(',');
               }
               document.write('<br>Max:');
               
-                      findMax(shitty);
+                      findMax(defualtArray);
                       
                  document.write('<br>************************************');
-                     
-                     
+                                        
 ////////////////////////////////////////////////////////////////////////////////
                      
               var userArray= new Array(6);
