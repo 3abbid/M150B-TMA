@@ -1,0 +1,17 @@
+<script src="Datelibrary.js" path here ></script>
+<script>
+var date1=new Date(2000,5,7);
+var date2=new Date(2020,4,18);
+document.write("Difference in days: "+Math.abs(differenceInDays(date1,date2)));
+document.write("<br>");
+document.write("Difference in years: "+Math.abs(differenceInYears(date1,date2)));
+document.write("<br>");
+date1.setMonth(8);
+date2.setYear(2013)
+document.write("Changed year: "+date2.getFullYear());
+document.write("<br>");
+document.write("Day name: "+dayName(date1)+".");
+document.write("<br>");
+document.write("Short form: "+dateStringShort(date1));
+
+</script>
